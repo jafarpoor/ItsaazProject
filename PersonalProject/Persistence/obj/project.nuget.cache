@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "LHMO31YM5FkH49KDiNDUq9dm0X4zk5Qk+qAjpwaqNSg/qEsLckzXLT1Bi+K18Dm5UWSHeu5mq8Bjtk15Whicig==",
+  "dgSpecHash": "DAdflnt6lbs8EudC589sBNuLvs3GNgj/ph13AU52b1X/ymUrXKlThe6tcktbYqQyv0Jzt7BfvxALAlH9Zl4kUg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jafapour\\Desktop\\PersonalProject\\Persistence\\Persistence.csproj",
+  "projectFilePath": "C:\\Users\\jafapour\\ItsaazProject\\PersonalProject\\Persistence\\Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jafapour\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\jafapour\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\jafapour\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
     "C:\\Users\\jafapour\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\jafapour\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\jafapour\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

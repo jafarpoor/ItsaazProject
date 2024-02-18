@@ -7,17 +7,16 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Personal\Commands\" />
-    <Folder Include="Personal\DTO\" />
-    <Folder Include="Personal\FacadePattern\" />
     <Folder Include="Personal\Queries\" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.9.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj" />
     <ProjectReference Include="..\Domain\Domain.csproj" />
   </ItemGroup>
 

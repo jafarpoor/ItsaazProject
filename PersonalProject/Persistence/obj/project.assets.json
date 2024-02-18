@@ -46,6 +46,19 @@
           }
         }
       },
+      "FluentValidation/11.9.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -1137,7 +1150,9 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
+          "Common": "1.0.0",
           "Domain": "1.0.0",
+          "FluentValidation": "11.9.0",
           "Microsoft.EntityFrameworkCore": "7.0.0"
         },
         "compile": {
@@ -1147,9 +1162,22 @@
           "bin/placeholder/Application.dll": {}
         }
       },
+      "Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Common.dll": {}
+        }
+      },
       "Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.0"
+        },
         "compile": {
           "bin/placeholder/Domain.dll": {}
         },
@@ -1196,6 +1224,31 @@
         "azureicon.png",
         "lib/netstandard2.0/Azure.Identity.dll",
         "lib/netstandard2.0/Azure.Identity.xml"
+      ]
+    },
+    "FluentValidation/11.9.0": {
+      "sha512": "VneVlTvwYDkfHV5av3QrQ0amALgrLX6LV94wlYyEsh0B/klJBW7C8y2eAtj5tOZ3jH6CAVpr4s1ZGgew/QWyig==",
+      "type": "package",
+      "path": "fluentvalidation/11.9.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.11.9.0.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net5.0/FluentValidation.dll",
+        "lib/net5.0/FluentValidation.xml",
+        "lib/net6.0/FluentValidation.dll",
+        "lib/net6.0/FluentValidation.xml",
+        "lib/net7.0/FluentValidation.dll",
+        "lib/net7.0/FluentValidation.xml",
+        "lib/net8.0/FluentValidation.dll",
+        "lib/net8.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml",
+        "lib/netstandard2.1/FluentValidation.dll",
+        "lib/netstandard2.1/FluentValidation.xml"
       ]
     },
     "Humanizer.Core/2.14.1": {
@@ -3482,6 +3535,11 @@
       "path": "../Application/Application.csproj",
       "msbuildProject": "../Application/Application.csproj"
     },
+    "Common/1.0.0": {
+      "type": "project",
+      "path": "../Common/Common.csproj",
+      "msbuildProject": "../Common/Common.csproj"
+    },
     "Domain/1.0.0": {
       "type": "project",
       "path": "../Domain/Domain.csproj",
@@ -3504,11 +3562,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jafapour\\Desktop\\PersonalProject\\Persistence\\Persistence.csproj",
+      "projectUniqueName": "C:\\Users\\jafapour\\ItsaazProject\\PersonalProject\\Persistence\\Persistence.csproj",
       "projectName": "Persistence",
-      "projectPath": "C:\\Users\\jafapour\\Desktop\\PersonalProject\\Persistence\\Persistence.csproj",
+      "projectPath": "C:\\Users\\jafapour\\ItsaazProject\\PersonalProject\\Persistence\\Persistence.csproj",
       "packagesPath": "C:\\Users\\jafapour\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jafapour\\Desktop\\PersonalProject\\Persistence\\obj\\",
+      "outputPath": "C:\\Users\\jafapour\\ItsaazProject\\PersonalProject\\Persistence\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jafapour\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3525,8 +3583,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\jafapour\\Desktop\\PersonalProject\\Application\\Application.csproj": {
-              "projectPath": "C:\\Users\\jafapour\\Desktop\\PersonalProject\\Application\\Application.csproj"
+            "C:\\Users\\jafapour\\ItsaazProject\\PersonalProject\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\jafapour\\ItsaazProject\\PersonalProject\\Application\\Application.csproj"
             }
           }
         }

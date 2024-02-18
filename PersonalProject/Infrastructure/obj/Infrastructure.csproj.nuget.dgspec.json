@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jafapour\\Desktop\\PersonalProject\\Infrastructure\\Infrastructure.csproj": {}
+    "C:\\Users\\jafapour\\ItsaazProject\\PersonalProject\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jafapour\\Desktop\\PersonalProject\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\jafapour\\ItsaazProject\\PersonalProject\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jafapour\\Desktop\\PersonalProject\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\jafapour\\ItsaazProject\\PersonalProject\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\jafapour\\Desktop\\PersonalProject\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\Users\\jafapour\\ItsaazProject\\PersonalProject\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\jafapour\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jafapour\\Desktop\\PersonalProject\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\jafapour\\ItsaazProject\\PersonalProject\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jafapour\\AppData\\Roaming\\NuGet\\NuGet.Config",
