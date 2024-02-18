@@ -8,6 +8,8 @@
         public static string EnterLastName { get; } = "نام خانوادگی را وارد کنید";
         public static string EnterValidEmail { get; } = "ایمیل را به صورت صحیح وارد کنید";
         public static string EnterValidPhoneNumber { get; } = "شماره تلفن را به صورت صحیح وارد کنید";
+        public static string DuplicateEmail { get; } = "ایمیل تکراری می باشد";
+        public static string DuplicateUser { get; } = "کاربر تکراری می باشد";
 
     }
 }

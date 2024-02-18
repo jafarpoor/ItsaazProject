@@ -16,6 +16,7 @@ namespace EndPointSite.Controllers
         {
             _personFacade = personFacade;
         }
+        [HttpGet]
         public IActionResult Index()
         {
             return View();
@@ -44,12 +45,23 @@ namespace EndPointSite.Controllers
                     ValidationMessages.Add(failure.ErrorMessage);
                 }
                 response.Message = ValidationMessages;
+                return Json(response);
+            }
+             response = _personFacade.PersonVaidationService.CheckUniqEmail(addPersonViewModel.Email);
+             if (!response.IsSuccess)
+            {
+                return Json(response);
+            }
+            response = _personFacade.PersonVaidationService.CheckUniqUser(addPersonViewModel);
+            if (!response.IsSuccess)
+            {
+                return Json(response);
             }
             else
             {
                 response = _personFacade.AddPersonService.Add(addPersonViewModel);
+                return Json(response);
             }
-            return Json(response);
         }
     }
 }
