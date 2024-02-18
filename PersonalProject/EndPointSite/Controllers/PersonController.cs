@@ -21,6 +21,7 @@ namespace EndPointSite.Controllers
             return View();
         }
 
+        [HttpPost]
         public IActionResult Add(AddPersonViewModel  addPersonViewModel)
         {
             PersonValidator validator = new PersonValidator();
@@ -48,7 +49,7 @@ namespace EndPointSite.Controllers
             {
                 response = _personFacade.AddPersonService.Add(addPersonViewModel);
             }
-            return View(response);
+            return Json(response);
         }
     }
 }

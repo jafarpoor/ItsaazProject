@@ -16,7 +16,7 @@ builder.Services.AddDbContext<DataBaseContext>(option => option.UseSqlServer(con
 #endregion
 
 builder.Services.AddTransient<IPersonFacade, PersonFacade>();
-
+builder.Services.AddRazorPages();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -31,9 +31,8 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
 app.UseAuthorization();
-
+app.MapRazorPages();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8nj4xbYFheZ8jyWf4SCgugs8QlgnKL6vXqPp0ue2Cb0=",
+  "Hash": "qZDmy5VKtY3kmtfcR9NFRBdlU9tZl+QNqg3uL750z4M=",
   "Source": "EndPointSite",
   "BasePath": "_content/EndPointSite",
   "Mode": "Default",
@@ -1193,6 +1193,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\jafapour\\ItsaazProject\\PersonalProject\\EndPointSite\\wwwroot\\Sweetalert2\\sweetalert2.min.css",
+      "SourceId": "EndPointSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jafapour\\ItsaazProject\\PersonalProject\\EndPointSite\\wwwroot\\",
+      "BasePath": "_content/EndPointSite",
+      "RelativePath": "Sweetalert2/sweetalert2.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Sweetalert2\\sweetalert2.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\jafapour\\ItsaazProject\\PersonalProject\\EndPointSite\\wwwroot\\Sweetalert2\\sweetalert2.min.js",
+      "SourceId": "EndPointSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jafapour\\ItsaazProject\\PersonalProject\\EndPointSite\\wwwroot\\",
+      "BasePath": "_content/EndPointSite",
+      "RelativePath": "Sweetalert2/sweetalert2.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Sweetalert2\\sweetalert2.min.js"
     }
   ]
 }
