@@ -2,6 +2,7 @@
 using Application.Interfaces.Personal;
 using Application.Personal.DTO;
 using Common.ErrorMassage;
+using Domain.Personal;
 using static Common.BaseDTO.ResultViewModel;
 
 namespace Application.Personal.Validation
@@ -27,35 +28,36 @@ namespace Application.Personal.Validation
                         IsSuccess = true,
                     };
                 else
-                    return new ResultDataModel() { IsSuccess = false, Message = new List<string>() { ErrorMassageString.DuplicateEmail } };
+                    return new ResultDataModel() { IsSuccess = false, Message = new List<string>() { MassageString.DuplicateEmail } };
             }
             catch (Exception)
             {
-                return new ResultDataModel() { IsSuccess = false, Message = new List<string>() { ErrorMassageString.CachError } };
+                return new ResultDataModel() { IsSuccess = false, Message = new List<string>() { MassageString.CachError } };
             }
          
         }
 
-        public ResultDataModel CheckUniqUser(AddPersonViewModel addPersonViewModel)
+        public ResultDataModel CheckUniqUser(Person person)
         {
             try
             {
-                var Result = _context.People.Where(p => p.Firstname == addPersonViewModel.Firstname 
-                                                    && p.Lastname == addPersonViewModel.Lastname 
-                                                    && p.DateOfBirth == addPersonViewModel.DateOfBirth).FirstOrDefault();
+                var Result = _context.People.Where(p => p.Firstname == person.Firstname 
+                                                    && p.Lastname == person.Lastname 
+                                                    && p.DateOfBirth == person.DateOfBirth).FirstOrDefault();
                 if (Result == null)
                     return new ResultDataModel()
                     {
                         IsSuccess = true,
                     };
                 else
-                    return new ResultDataModel() { IsSuccess = false, Message = new List<string>() { ErrorMassageString.DuplicateUser } };
+                    return new ResultDataModel() { IsSuccess = false, Message = new List<string>() { MassageString.DuplicateUser } };
             }
             catch (Exception)
             {
-                return new ResultDataModel() { IsSuccess = false, Message = new List<string>() { ErrorMassageString.CachError } };
+                return new ResultDataModel() { IsSuccess = false, Message = new List<string>() { MassageString.CachError } };
             }
 
         }
     }
+
 }

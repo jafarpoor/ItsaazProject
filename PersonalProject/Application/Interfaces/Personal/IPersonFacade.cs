@@ -5,5 +5,7 @@
         IAddPersonService AddPersonService { get; }
         IPersonVaidationService PersonVaidationService { get; }
         IGetListPersonService GetListPersonService { get; }
+        IDeletePersonService DeletePersonService { get; }
+        IEditPersonService EditPersonService { get; }
     }
 }

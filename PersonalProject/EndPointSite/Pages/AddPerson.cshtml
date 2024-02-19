@@ -1,4 +1,6 @@
-﻿@model Application.Personal.DTO.AddPersonViewModel
+﻿@page
+
+@model Application.Personal.DTO.AddPersonViewModel
 
 @{
     ViewData["Title"] = "ثبت اشخاص";
@@ -7,7 +9,7 @@
 
 <div class="main">
     <h1>ثبت نام اشخاص</h1>
-    <form asp-controller="Person" asp-action="Add" method="post">
+    <form asp-controller="person" asp-action="add" method="post">
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
         <label asp-for="Firstname">نام:</label>
@@ -42,7 +44,7 @@
                placeholder="شماره تلفن" required>
 
         <div class="form-group">
-            <a onclick="AddNewPerson()" class="btn btn-primary btn-login">ثبت </a>
+            <a onclick="addNewPerson()" class="btn btn-primary btn-login">ثبت </a>
         </div>
     </form>
 </div>
@@ -55,9 +57,10 @@
 
     <link href="~/Sweetalert2/sweetalert2.min.css" rel="stylesheet" />
     <script src="~/Sweetalert2/sweetalert2.min.js"></script>
-
+    <script src="@Url.Content("~/Scripts/jquery.validate.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")" type="text/javascript"></script>
     <script>
-        function AddNewPerson() {
+        function addNewPerson() {
             var Firstname = $("#first").val();
             var Lastname = $("#last").val();
             var Email = $("#email").val();
@@ -66,7 +69,7 @@
 
 
             var postData = {
-                'Firstname': Firstname
+                'Firstname': Firstname,
                 'Lastname': Lastname,
                 'Email': Email,
                 'PhoneNumber': PhoneNumber
@@ -77,7 +80,7 @@
                 contentType: 'application/x-www-form-urlencoded',
                 dataType: 'json',
                 type: "POST",
-                url: "Add",
+                url: "person/add",
                 data: postData,
                 success: function (data) {
                     if (data.isSuccess == true) {
@@ -90,11 +93,14 @@
                         });
                     }
                     else {
-                        swal.fire(
-                            'هشدار!',
-                            data.message,
-                            'warning'
-                        );
+                        for (let i = 0; i < data.message.length; i++) {
+                            swal.fire(
+                                'هشدار!',
+                                data.message[i],
+                                'warning'
+                            );
+                        }     
+                      
                     }
                 },
                 error: function (request, status, error) {

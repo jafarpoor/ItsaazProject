@@ -37,7 +37,7 @@ namespace Application.Personal.Commands
                 return new ResultDataModel
                 {
                     IsSuccess = true,
-                    Message = new List<string> { ErrorMassageString.SaveMassage }
+                    Message = new List<string> { MassageString.SaveMassage }
                 };
 
             }
@@ -46,7 +46,7 @@ namespace Application.Personal.Commands
                 return new ResultDataModel
                 {
                     IsSuccess = false,
-                    Message = new List<string> { ErrorMassageString.CachError }
+                    Message = new List<string> { MassageString.CachError }
                 };
             }
         }

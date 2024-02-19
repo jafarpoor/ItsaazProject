@@ -18,20 +18,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\jafapour\ItsaazProject\PersonalProject\EndPointSite
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/jafapour/ItsaazProject/PersonalProject/EndPointSite/Pages/AddPerson.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkUGVyc29uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/jafapour/ItsaazProject/PersonalProject/EndPointSite/Pages/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/jafapour/ItsaazProject/PersonalProject/EndPointSite/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/jafapour/ItsaazProject/PersonalProject/EndPointSite/Views/Personal/AddPerson.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYWxcQWRkUGVyc29uLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/jafapour/ItsaazProject/PersonalProject/EndPointSite/Views/Personal/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYWxcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/jafapour/ItsaazProject/PersonalProject/EndPointSite/Views/Shared/Error.cshtml]

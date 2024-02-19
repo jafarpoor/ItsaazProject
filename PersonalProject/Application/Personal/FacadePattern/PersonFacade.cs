@@ -42,5 +42,23 @@ namespace Application.Personal.FacadePattern
                 return _getListPersonService = _getListPersonService ?? new GetListPersonService(_context);
             }
         }
+
+        private IDeletePersonService _deletePersonService;
+        public IDeletePersonService DeletePersonService
+        {
+            get
+            {
+                return _deletePersonService = _deletePersonService ?? new DeletePersonService(_context);
+            }
+        }
+
+        private IEditPersonService _editPersonService;
+        public IEditPersonService EditPersonService
+        {
+            get
+            {
+                return _editPersonService = _editPersonService ?? new EditPersonService(_context);
+            }
+        }
     }
 }
