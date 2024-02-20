@@ -3,8 +3,10 @@ using Application.Personal.DTO;
 using Application.Personal.Validation;
 using Common.Number;
 using Domain.Personal;
+using EndPointSite.ViewModel;
 using FluentValidation.Results;
 using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
 using static Common.BaseDTO.ResultViewModel;
 
 namespace EndPointSite.Controllers
@@ -19,8 +21,17 @@ namespace EndPointSite.Controllers
         }
         [HttpGet]
         public IActionResult Index()
-        {
-            return View();
+        {          
+             List<ListPersonViewModel>Result = _personFacade.GetListPersonService.GetAll();
+            Result.Select(p => new PersonViewModel
+            {
+                Firstname = p.Firstname,
+                Lastname = p.Lastname,
+                DateOfBirth = DateTime.Now,
+                Email = p.Email,
+                PhoneNumber = p.PhoneNumber,
+            }).ToList();
+            return View(Result);
         }
 
         [HttpPost]

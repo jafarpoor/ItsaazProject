@@ -21,3 +21,15 @@ C:\Users\jafapour\ItsaazProject\PersonalProject\Common\obj\Debug\net7.0\Common.d
 C:\Users\jafapour\ItsaazProject\PersonalProject\Common\obj\Debug\net7.0\refint\Common.dll
 C:\Users\jafapour\ItsaazProject\PersonalProject\Common\obj\Debug\net7.0\Common.pdb
 C:\Users\jafapour\ItsaazProject\PersonalProject\Common\obj\Debug\net7.0\ref\Common.dll
+F:\ItsaazProject\PersonalProject\Common\bin\Debug\net7.0\Common.deps.json
+F:\ItsaazProject\PersonalProject\Common\bin\Debug\net7.0\Common.dll
+F:\ItsaazProject\PersonalProject\Common\bin\Debug\net7.0\Common.pdb
+F:\ItsaazProject\PersonalProject\Common\obj\Debug\net7.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+F:\ItsaazProject\PersonalProject\Common\obj\Debug\net7.0\Common.AssemblyInfoInputs.cache
+F:\ItsaazProject\PersonalProject\Common\obj\Debug\net7.0\Common.AssemblyInfo.cs
+F:\ItsaazProject\PersonalProject\Common\obj\Debug\net7.0\Common.csproj.CoreCompileInputs.cache
+F:\ItsaazProject\PersonalProject\Common\obj\Debug\net7.0\Common.sourcelink.json
+F:\ItsaazProject\PersonalProject\Common\obj\Debug\net7.0\Common.dll
+F:\ItsaazProject\PersonalProject\Common\obj\Debug\net7.0\refint\Common.dll
+F:\ItsaazProject\PersonalProject\Common\obj\Debug\net7.0\Common.pdb
+F:\ItsaazProject\PersonalProject\Common\obj\Debug\net7.0\ref\Common.dll

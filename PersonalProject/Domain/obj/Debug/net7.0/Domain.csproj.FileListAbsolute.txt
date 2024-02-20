@@ -22,3 +22,16 @@ C:\Users\jafapour\ItsaazProject\PersonalProject\Domain\obj\Debug\net7.0\Domain.d
 C:\Users\jafapour\ItsaazProject\PersonalProject\Domain\obj\Debug\net7.0\refint\Domain.dll
 C:\Users\jafapour\ItsaazProject\PersonalProject\Domain\obj\Debug\net7.0\Domain.pdb
 C:\Users\jafapour\ItsaazProject\PersonalProject\Domain\obj\Debug\net7.0\ref\Domain.dll
+F:\ItsaazProject\PersonalProject\Domain\bin\Debug\net7.0\Domain.deps.json
+F:\ItsaazProject\PersonalProject\Domain\bin\Debug\net7.0\Domain.dll
+F:\ItsaazProject\PersonalProject\Domain\bin\Debug\net7.0\Domain.pdb
+F:\ItsaazProject\PersonalProject\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+F:\ItsaazProject\PersonalProject\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\ItsaazProject\PersonalProject\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+F:\ItsaazProject\PersonalProject\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+F:\ItsaazProject\PersonalProject\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+F:\ItsaazProject\PersonalProject\Domain\obj\Debug\net7.0\Domain.sourcelink.json
+F:\ItsaazProject\PersonalProject\Domain\obj\Debug\net7.0\Domain.dll
+F:\ItsaazProject\PersonalProject\Domain\obj\Debug\net7.0\refint\Domain.dll
+F:\ItsaazProject\PersonalProject\Domain\obj\Debug\net7.0\Domain.pdb
+F:\ItsaazProject\PersonalProject\Domain\obj\Debug\net7.0\ref\Domain.dll

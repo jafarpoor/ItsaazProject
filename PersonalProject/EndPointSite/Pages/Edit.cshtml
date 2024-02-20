@@ -1,108 +1,106 @@
-﻿@page
+﻿@page "/edit{Id}"
 
 @model Application.Personal.DTO.AddPersonViewModel
 
 @{
     ViewData["Title"] = "ثبت اشخاص";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
+<div class="main">
+    <h1>ثبت نام اشخاص</h1>
+    <form asp-controller="person" asp-action="edit" method="post">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
-<!DOCTYPE html>
-<html>
+        <label asp-for="Firstname">نام:</label>
+        <span asp-validation-for="Firstname" class="text-danger"></span>
+        <input type="text" id="first"
+               asp-for="Firstname"
+               placeholder="نام" required>
 
-<head>
-    <link href="~/css/site.css" rel="stylesheet" />
-    <title>ثبت نام اشخاص</title>
-</head>
+        <label asp-for="Lastname">نام خانوادگی:</label>
+        <span asp-validation-for="Lastname" class="text-danger"></span>
+        <input type="text" id="last"
+               asp-for="Lastname"
+               placeholder="نام خانوادگی" required>
 
-<body>
-    <div class="main">
-        <h1>GeeksforGeeks</h1>
-        <form action="">
-            <label for="first">First Name:</label>
-            <input type="text" id="first"
-                   name="first"
-                   placeholder="Enter your first name" required>
+        <label asp-for="Email">ایمیل:</label>
+        <span asp-validation-for="Email" class="text-danger"></span>
+        <input type="text" id="email"
+               asp-for="Email"
+               placeholder="Enter your email" required>
 
-            <label for="last">Last Name:</label>
-            <input type="text" id="last"
-                   name="last"
-                   placeholder="Enter your last name" required>
+        <label asp-for="DateOfBirth">تاریخ تولد:</label>
+        <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+        <input type="date"
+               id="dob" name="dob"
+               placeholder="تاریخ تولد">
 
-            <label for="email">Email:</label>
-            <input type="email" id="email"
-                   name="email"
-                   placeholder="Enter your email" required>
 
-            <label for="dob">Date of Birth:</label>
-            <input type="date"
-                   id="dob" name="dob"
-                   placeholder="Enter your DOB" required>
+        <label asp-for="PhoneNumber">شماره تلفن:</label>
+        <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+        <input type="text" id="mobile"
+               asp-for="PhoneNumber"
+               placeholder="شماره تلفن" required>
 
-            <label for="password">Password:</label>
-            <input type="password" id="password"
-                   name="password"
-                   placeholder="Enter your password">
+        <div class="form-group">
+            <a onclick="addNewPerson()" class="btn btn-primary btn-login">ثبت </a>
+        </div>
+    </form>
+</div>
 
-            <label for="repassword">Re-type Password:</label>
-            <input type="password" id="repassword"
-                   name="repassword"
-                   placeholder="Re-Enter your password" required>
-            <span id="pass"></span>
-
-            <label for="mobile">Contact:</label>
-            <input type="text" id="mobile"
-                   name="mobile"
-                   placeholder="Enter your Mobile Number" required>
-
-            <div class="wrap">
-                <button type="submit" onclick="solve()">
-                    Submit
-                </button>
-            </div>
-        </form>
-    </div>
-    <script src="script.js"></script>
-</body>
-
-</html>
 
 
 
 
 @section Scripts {
+
     <link href="~/Sweetalert2/sweetalert2.min.css" rel="stylesheet" />
     <script src="~/Sweetalert2/sweetalert2.min.js"></script>
-
+    <script src="@Url.Content("~/Scripts/jquery.validate.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")" type="text/javascript"></script>
     <script>
-        function AddNewPerson() {
-            var Name = $("#Name").val();
+        function addNewPerson() {
+            var Firstname = $("#first").val();
+            var Lastname = $("#last").val();
+            var Email = $("#email").val();
+            // var DateOfBirth = $("#DateOfBirth").val();
+            var PhoneNumber = $("#mobile").val();
+
 
             var postData = {
-                'Name': Name
+                'Firstname': Firstname,
+                'Lastname': Lastname,
+                'Email': Email,
+                'PhoneNumber': PhoneNumber
+
             };
+
             $.ajax({
                 contentType: 'application/x-www-form-urlencoded',
                 dataType: 'json',
                 type: "POST",
-                url: "Add",
+                url: "person/edit",
                 data: postData,
                 success: function (data) {
                     if (data.isSuccess == true) {
                         Swal.fire({
                             text: data.message,
                             icon: 'success',
-                            title: 'حله'
+                            title: 'انجام شد'
                         }).then(function (isConfirm) {
-                            window.location.replace("/Category/GetList");
+                            window.location.replace("/Person/Index");
                         });
                     }
                     else {
-                        swal.fire(
-                            'هشدار!',
-                            data.message,
-                            'warning'
-                        );
+                        for (let i = 0; i < data.message.length; i++) {
+                            swal.fire(
+                                'هشدار!',
+                                data.message[i],
+                                'warning'
+                            );
+                        }
+
                     }
                 },
                 error: function (request, status, error) {

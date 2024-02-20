@@ -592,37 +592,37 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jafapour\\.nuget\\packages\\": {}
+    "C:\\Users\\jafarpoor-f\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jafapour\\ItsaazProject\\PersonalProject\\Application\\Application.csproj",
+      "projectUniqueName": "F:\\ItsaazProject\\PersonalProject\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "C:\\Users\\jafapour\\ItsaazProject\\PersonalProject\\Application\\Application.csproj",
-      "packagesPath": "C:\\Users\\jafapour\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jafapour\\ItsaazProject\\PersonalProject\\Application\\obj\\",
+      "projectPath": "F:\\ItsaazProject\\PersonalProject\\Application\\Application.csproj",
+      "packagesPath": "C:\\Users\\jafarpoor-f\\.nuget\\packages\\",
+      "outputPath": "F:\\ItsaazProject\\PersonalProject\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\jafapour\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jafarpoor-f\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "F:\\OnlineShop\\OnlineShopProject\\NugetOffine": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\jafapour\\ItsaazProject\\PersonalProject\\Common\\Common.csproj": {
-              "projectPath": "C:\\Users\\jafapour\\ItsaazProject\\PersonalProject\\Common\\Common.csproj"
+            "F:\\ItsaazProject\\PersonalProject\\Common\\Common.csproj": {
+              "projectPath": "F:\\ItsaazProject\\PersonalProject\\Common\\Common.csproj"
             },
-            "C:\\Users\\jafapour\\ItsaazProject\\PersonalProject\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\jafapour\\ItsaazProject\\PersonalProject\\Domain\\Domain.csproj"
+            "F:\\ItsaazProject\\PersonalProject\\Domain\\Domain.csproj": {
+              "projectPath": "F:\\ItsaazProject\\PersonalProject\\Domain\\Domain.csproj"
             }
           }
         }

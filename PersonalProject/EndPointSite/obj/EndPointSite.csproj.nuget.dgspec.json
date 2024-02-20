@@ -1,38 +1,38 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jafapour\\ItsaazProject\\PersonalProject\\EndPointSite\\EndPointSite.csproj": {}
+    "F:\\ItsaazProject\\PersonalProject\\EndPointSite\\EndPointSite.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jafapour\\ItsaazProject\\PersonalProject\\Application\\Application.csproj": {
+    "F:\\ItsaazProject\\PersonalProject\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jafapour\\ItsaazProject\\PersonalProject\\Application\\Application.csproj",
+        "projectUniqueName": "F:\\ItsaazProject\\PersonalProject\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\jafapour\\ItsaazProject\\PersonalProject\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\jafapour\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jafapour\\ItsaazProject\\PersonalProject\\Application\\obj\\",
+        "projectPath": "F:\\ItsaazProject\\PersonalProject\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\jafarpoor-f\\.nuget\\packages\\",
+        "outputPath": "F:\\ItsaazProject\\PersonalProject\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jafapour\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jafarpoor-f\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "F:\\OnlineShop\\OnlineShopProject\\NugetOffine": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\jafapour\\ItsaazProject\\PersonalProject\\Common\\Common.csproj": {
-                "projectPath": "C:\\Users\\jafapour\\ItsaazProject\\PersonalProject\\Common\\Common.csproj"
+              "F:\\ItsaazProject\\PersonalProject\\Common\\Common.csproj": {
+                "projectPath": "F:\\ItsaazProject\\PersonalProject\\Common\\Common.csproj"
               },
-              "C:\\Users\\jafapour\\ItsaazProject\\PersonalProject\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\jafapour\\ItsaazProject\\PersonalProject\\Domain\\Domain.csproj"
+              "F:\\ItsaazProject\\PersonalProject\\Domain\\Domain.csproj": {
+                "projectPath": "F:\\ItsaazProject\\PersonalProject\\Domain\\Domain.csproj"
               }
             }
           }
@@ -76,24 +76,24 @@
         }
       }
     },
-    "C:\\Users\\jafapour\\ItsaazProject\\PersonalProject\\Common\\Common.csproj": {
+    "F:\\ItsaazProject\\PersonalProject\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jafapour\\ItsaazProject\\PersonalProject\\Common\\Common.csproj",
+        "projectUniqueName": "F:\\ItsaazProject\\PersonalProject\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "C:\\Users\\jafapour\\ItsaazProject\\PersonalProject\\Common\\Common.csproj",
-        "packagesPath": "C:\\Users\\jafapour\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jafapour\\ItsaazProject\\PersonalProject\\Common\\obj\\",
+        "projectPath": "F:\\ItsaazProject\\PersonalProject\\Common\\Common.csproj",
+        "packagesPath": "C:\\Users\\jafarpoor-f\\.nuget\\packages\\",
+        "outputPath": "F:\\ItsaazProject\\PersonalProject\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jafapour\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jafarpoor-f\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "F:\\OnlineShop\\OnlineShopProject\\NugetOffine": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -131,24 +131,24 @@
         }
       }
     },
-    "C:\\Users\\jafapour\\ItsaazProject\\PersonalProject\\Domain\\Domain.csproj": {
+    "F:\\ItsaazProject\\PersonalProject\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jafapour\\ItsaazProject\\PersonalProject\\Domain\\Domain.csproj",
+        "projectUniqueName": "F:\\ItsaazProject\\PersonalProject\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\jafapour\\ItsaazProject\\PersonalProject\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\jafapour\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jafapour\\ItsaazProject\\PersonalProject\\Domain\\obj\\",
+        "projectPath": "F:\\ItsaazProject\\PersonalProject\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\jafarpoor-f\\.nuget\\packages\\",
+        "outputPath": "F:\\ItsaazProject\\PersonalProject\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jafapour\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jafarpoor-f\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "F:\\OnlineShop\\OnlineShopProject\\NugetOffine": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -192,32 +192,32 @@
         }
       }
     },
-    "C:\\Users\\jafapour\\ItsaazProject\\PersonalProject\\EndPointSite\\EndPointSite.csproj": {
+    "F:\\ItsaazProject\\PersonalProject\\EndPointSite\\EndPointSite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jafapour\\ItsaazProject\\PersonalProject\\EndPointSite\\EndPointSite.csproj",
+        "projectUniqueName": "F:\\ItsaazProject\\PersonalProject\\EndPointSite\\EndPointSite.csproj",
         "projectName": "EndPointSite",
-        "projectPath": "C:\\Users\\jafapour\\ItsaazProject\\PersonalProject\\EndPointSite\\EndPointSite.csproj",
-        "packagesPath": "C:\\Users\\jafapour\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jafapour\\ItsaazProject\\PersonalProject\\EndPointSite\\obj\\",
+        "projectPath": "F:\\ItsaazProject\\PersonalProject\\EndPointSite\\EndPointSite.csproj",
+        "packagesPath": "C:\\Users\\jafarpoor-f\\.nuget\\packages\\",
+        "outputPath": "F:\\ItsaazProject\\PersonalProject\\EndPointSite\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jafapour\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jafarpoor-f\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "F:\\OnlineShop\\OnlineShopProject\\NugetOffine": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\jafapour\\ItsaazProject\\PersonalProject\\Persistence\\Persistence.csproj": {
-                "projectPath": "C:\\Users\\jafapour\\ItsaazProject\\PersonalProject\\Persistence\\Persistence.csproj"
+              "F:\\ItsaazProject\\PersonalProject\\Persistence\\Persistence.csproj": {
+                "projectPath": "F:\\ItsaazProject\\PersonalProject\\Persistence\\Persistence.csproj"
               }
             }
           }
@@ -237,6 +237,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.12, )"
             }
           },
           "imports": [
@@ -262,32 +266,32 @@
         }
       }
     },
-    "C:\\Users\\jafapour\\ItsaazProject\\PersonalProject\\Persistence\\Persistence.csproj": {
+    "F:\\ItsaazProject\\PersonalProject\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jafapour\\ItsaazProject\\PersonalProject\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "F:\\ItsaazProject\\PersonalProject\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "C:\\Users\\jafapour\\ItsaazProject\\PersonalProject\\Persistence\\Persistence.csproj",
-        "packagesPath": "C:\\Users\\jafapour\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jafapour\\ItsaazProject\\PersonalProject\\Persistence\\obj\\",
+        "projectPath": "F:\\ItsaazProject\\PersonalProject\\Persistence\\Persistence.csproj",
+        "packagesPath": "C:\\Users\\jafarpoor-f\\.nuget\\packages\\",
+        "outputPath": "F:\\ItsaazProject\\PersonalProject\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jafapour\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jafarpoor-f\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "F:\\OnlineShop\\OnlineShopProject\\NugetOffine": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\jafapour\\ItsaazProject\\PersonalProject\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\jafapour\\ItsaazProject\\PersonalProject\\Application\\Application.csproj"
+              "F:\\ItsaazProject\\PersonalProject\\Application\\Application.csproj": {
+                "projectPath": "F:\\ItsaazProject\\PersonalProject\\Application\\Application.csproj"
               }
             }
           }
