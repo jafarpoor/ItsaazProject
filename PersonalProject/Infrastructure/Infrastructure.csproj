@@ -7,8 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Api\" />
-    <Folder Include="AutoMapperConfigs\" />
+    <Compile Remove="Api\**" />
+    <Compile Remove="AutoMapperConfigs\**" />
+    <EmbeddedResource Remove="Api\**" />
+    <EmbeddedResource Remove="AutoMapperConfigs\**" />
+    <None Remove="Api\**" />
+    <None Remove="AutoMapperConfigs\**" />
   </ItemGroup>
 
 </Project>

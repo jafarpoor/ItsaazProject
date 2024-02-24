@@ -14,6 +14,8 @@ namespace Application.Personal.DTO
             Email = string.Empty;
         }
 
+        public int Id { get; set; }
+
         [Required(ErrorMessage = "نام را وارد کنید")]
         [DisplayName( "نام")]
         public string Firstname { get; set; }

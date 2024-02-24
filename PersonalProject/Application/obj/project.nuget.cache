@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "TD19tLPUmSquZv/g+C5IDAxXb9luHK5vt60GhcNWgy/JvQ9QlsxzW1SqP4eM6eqfIPqLfT3Nd/3+xLHA5D3JRg==",
+  "dgSpecHash": "7ztxjlnuicvohlDGY3iown4Ly0KWbBIPMsuijO8OeZ87MNVKVi774F/p4vYlkNJ9ZzJwH2KYeSJQBTOuX+gExQ==",
   "success": true,
   "projectFilePath": "F:\\ItsaazProject\\PersonalProject\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jafarpoor-f\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
+    "C:\\Users\\jafarpoor-f\\.nuget\\packages\\mapster\\7.4.0\\mapster.7.4.0.nupkg.sha512",
+    "C:\\Users\\jafarpoor-f\\.nuget\\packages\\mapster.core\\1.2.1\\mapster.core.1.2.1.nupkg.sha512",
     "C:\\Users\\jafarpoor-f\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.0\\microsoft.entityframeworkcore.7.0.0.nupkg.sha512",
     "C:\\Users\\jafarpoor-f\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.0\\microsoft.entityframeworkcore.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\jafarpoor-f\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.0\\microsoft.entityframeworkcore.analyzers.7.0.0.nupkg.sha512",

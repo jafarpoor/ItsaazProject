@@ -2,6 +2,7 @@
 using Application.Interfaces.Personal;
 using Application.Personal.Commands;
 using Application.Personal.Queries;
+using Application.Personal.ServiceTest;
 using Application.Personal.Validation;
 
 namespace Application.Personal.FacadePattern
@@ -58,6 +59,14 @@ namespace Application.Personal.FacadePattern
             get
             {
                 return _editPersonService = _editPersonService ?? new EditPersonService(_context);
+            }
+        }
+        private IPersonServices _personServices;
+        public IPersonServices PersonServices
+        {
+            get
+            {
+                return _personServices = _personServices ?? new PersonServices(_context);
             }
         }
     }

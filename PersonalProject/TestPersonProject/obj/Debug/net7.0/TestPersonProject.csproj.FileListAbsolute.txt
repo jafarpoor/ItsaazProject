@@ -333,3 +333,7 @@ F:\ItsaazProject\PersonalProject\TestPersonProject\obj\Debug\net7.0\refint\TestP
 F:\ItsaazProject\PersonalProject\TestPersonProject\obj\Debug\net7.0\TestPersonProject.pdb
 F:\ItsaazProject\PersonalProject\TestPersonProject\obj\Debug\net7.0\TestPersonProject.genruntimeconfig.cache
 F:\ItsaazProject\PersonalProject\TestPersonProject\obj\Debug\net7.0\ref\TestPersonProject.dll
+F:\ItsaazProject\PersonalProject\TestPersonProject\bin\Debug\net7.0\AutoMapper.dll
+F:\ItsaazProject\PersonalProject\TestPersonProject\bin\Debug\net7.0\Mapster.dll
+F:\ItsaazProject\PersonalProject\TestPersonProject\bin\Debug\net7.0\Mapster.Core.dll
+F:\ItsaazProject\PersonalProject\TestPersonProject\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.InMemory.dll

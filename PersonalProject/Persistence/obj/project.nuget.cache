@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "NCBCuelVMRzkkU+331NN6PX4Bsc2C3BOL5q6G0qU+q6RmGzUNcRLiyKDcLou7Jv9crFsBdPLpb7NvbNDLi/JbQ==",
+  "dgSpecHash": "p2azjhydr5G9W3I47REl4TSFcFQCHaqhWSYkK1bo/ULojguFreADZydJ/x5g4wr9/8qU46qlB2ojkETtqOaudA==",
   "success": true,
   "projectFilePath": "F:\\ItsaazProject\\PersonalProject\\Persistence\\Persistence.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,8 @@
     "C:\\Users\\jafarpoor-f\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\jafarpoor-f\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
     "C:\\Users\\jafarpoor-f\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\jafarpoor-f\\.nuget\\packages\\mapster\\7.4.0\\mapster.7.4.0.nupkg.sha512",
+    "C:\\Users\\jafarpoor-f\\.nuget\\packages\\mapster.core\\1.2.1\\mapster.core.1.2.1.nupkg.sha512",
     "C:\\Users\\jafarpoor-f\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\jafarpoor-f\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\jafarpoor-f\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.1\\microsoft.data.sqlclient.5.0.1.nupkg.sha512",

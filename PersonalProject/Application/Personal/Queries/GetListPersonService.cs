@@ -18,6 +18,7 @@ namespace Application.Personal.Queries
             {
                 List<ListPersonViewModel> Result = _context.People.Select(p => new ListPersonViewModel
                 {
+                    Id = p.Id,
                     Firstname = p.Firstname,
                     Lastname = p.Lastname,
                     Email = p.Email,

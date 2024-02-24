@@ -1,4 +1,6 @@
-﻿namespace Application.Interfaces.Personal
+﻿using Application.Personal.ServiceTest;
+
+namespace Application.Interfaces.Personal
 {
     public interface IPersonFacade
     {
@@ -7,5 +9,6 @@
         IGetListPersonService GetListPersonService { get; }
         IDeletePersonService DeletePersonService { get; }
         IEditPersonService EditPersonService { get; }
+        IPersonServices PersonServices { get; }
     }
 }
