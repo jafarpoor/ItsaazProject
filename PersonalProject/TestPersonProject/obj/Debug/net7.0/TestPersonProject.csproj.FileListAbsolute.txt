@@ -337,3 +337,4 @@ F:\ItsaazProject\PersonalProject\TestPersonProject\bin\Debug\net7.0\AutoMapper.d
 F:\ItsaazProject\PersonalProject\TestPersonProject\bin\Debug\net7.0\Mapster.dll
 F:\ItsaazProject\PersonalProject\TestPersonProject\bin\Debug\net7.0\Mapster.Core.dll
 F:\ItsaazProject\PersonalProject\TestPersonProject\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.InMemory.dll
+F:\ItsaazProject\PersonalProject\TestPersonProject\bin\Debug\net7.0\Mapster.DependencyInjection.dll

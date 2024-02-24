@@ -1,8 +1,11 @@
 using Application.Interfaces.Contexts;
 using Application.Interfaces.Personal;
 using Application.Personal.FacadePattern;
+using Mapster;
+using MapsterMapper;
 using Microsoft.EntityFrameworkCore;
 using Persistence.Contexts;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,6 +19,13 @@ builder.Services.AddDbContext<DataBaseContext>(option => option.UseSqlServer(con
 #endregion
 
 builder.Services.AddTransient<IPersonFacade, PersonFacade>();
+
+var config = TypeAdapterConfig.GlobalSettings;
+config.Scan(Assembly.GetExecutingAssembly());
+
+builder.Services.AddSingleton(config);
+builder.Services.AddScoped<IMapper, ServiceMapper>();
+
 builder.Services.AddRazorPages();
 var app = builder.Build();
 

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "4Md+n2xtjV1fh7vEq2ENz+s+PX1U85eImDQcfmgw4HIUAsN8b9edoQW8SW/AlXjIO0uUp72eLaA3glI/uvJpgA==",
+  "dgSpecHash": "4St6Jbkv0Kd6bPGaA0vFJeNbb3pxJP0nqTmFsLqFz2c6rhurJzjvr+xTC1nq+6HEdyQ2Zj9r1u7QFnvp90v+Bg==",
   "success": true,
   "projectFilePath": "F:\\ItsaazProject\\PersonalProject\\TestPersonProject\\TestPersonProject.csproj",
   "expectedPackageFiles": [
@@ -62,6 +62,7 @@
     "C:\\Users\\jafarpoor-f\\.nuget\\packages\\humanizer.core.zh-hant\\2.14.1\\humanizer.core.zh-hant.2.14.1.nupkg.sha512",
     "C:\\Users\\jafarpoor-f\\.nuget\\packages\\mapster\\7.4.0\\mapster.7.4.0.nupkg.sha512",
     "C:\\Users\\jafarpoor-f\\.nuget\\packages\\mapster.core\\1.2.1\\mapster.core.1.2.1.nupkg.sha512",
+    "C:\\Users\\jafarpoor-f\\.nuget\\packages\\mapster.dependencyinjection\\1.0.1\\mapster.dependencyinjection.1.0.1.nupkg.sha512",
     "C:\\Users\\jafarpoor-f\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.11\\microsoft.aspnetcore.razor.language.6.0.11.nupkg.sha512",
     "C:\\Users\\jafarpoor-f\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\jafarpoor-f\\.nuget\\packages\\microsoft.build\\17.3.2\\microsoft.build.17.3.2.nupkg.sha512",

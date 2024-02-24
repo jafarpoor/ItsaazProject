@@ -348,3 +348,4 @@ F:\ItsaazProject\PersonalProject\EndPointSite\obj\Debug\net7.0\EndPointSite.genr
 F:\ItsaazProject\PersonalProject\EndPointSite\obj\Debug\net7.0\ref\EndPointSite.dll
 F:\ItsaazProject\PersonalProject\EndPointSite\bin\Debug\net7.0\Mapster.dll
 F:\ItsaazProject\PersonalProject\EndPointSite\bin\Debug\net7.0\Mapster.Core.dll
+F:\ItsaazProject\PersonalProject\EndPointSite\bin\Debug\net7.0\Mapster.DependencyInjection.dll
