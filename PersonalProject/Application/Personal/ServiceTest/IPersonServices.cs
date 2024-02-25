@@ -8,6 +8,6 @@ namespace Application.Personal.ServiceTest
         Task<Person> EditAsync(Person post);
         Task<bool> DeleteAsync(int id);
         Task<Person> GetByIdAsync(int id);
-        Task<List<Person>> GetAllAsync();
+        Task<IEnumerable<Person>> GetAllAsync();
     }
 }

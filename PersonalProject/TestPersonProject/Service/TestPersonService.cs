@@ -19,7 +19,7 @@ namespace TestPersonProject.Service
             // Arrange
             var person = new Person
             {
-                Id = 4,
+                Id = 1000,
                 Firstname = "testNew",
                 Lastname = "testNew",
                 DateOfBirth = DateTime.Now,
@@ -81,7 +81,7 @@ namespace TestPersonProject.Service
             var res = await personServices.EditAsync(person);
 
             // Assert
-            Assert.Null(res.Id);
+            Assert.Null(res);
         }
 
         [Fact]

@@ -49,7 +49,7 @@ namespace Application.Personal.ServiceTest
             return persontObj;
         }
 
-        public async Task<List<Person>> GetAllAsync()
+        public async Task<IEnumerable<Person>> GetAllAsync()
         {
             return await _dbContext.People.ToListAsync();
         }

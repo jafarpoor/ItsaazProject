@@ -3607,7 +3607,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jafarpoor-f\\.nuget\\packages\\": {}
+    "C:\\Users\\jafapour\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -3615,18 +3615,18 @@
       "projectUniqueName": "F:\\ItsaazProject\\PersonalProject\\Persistence\\Persistence.csproj",
       "projectName": "Persistence",
       "projectPath": "F:\\ItsaazProject\\PersonalProject\\Persistence\\Persistence.csproj",
-      "packagesPath": "C:\\Users\\jafarpoor-f\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\jafapour\\.nuget\\packages\\",
       "outputPath": "F:\\ItsaazProject\\PersonalProject\\Persistence\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\jafarpoor-f\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jafapour\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "F:\\OnlineShop\\OnlineShopProject\\NugetOffine": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

@@ -12342,7 +12342,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jafarpoor-f\\.nuget\\packages\\": {}
+    "C:\\Users\\jafapour\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -12350,18 +12350,18 @@
       "projectUniqueName": "F:\\ItsaazProject\\PersonalProject\\TestPersonProject\\TestPersonProject.csproj",
       "projectName": "TestPersonProject",
       "projectPath": "F:\\ItsaazProject\\PersonalProject\\TestPersonProject\\TestPersonProject.csproj",
-      "packagesPath": "C:\\Users\\jafarpoor-f\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\jafapour\\.nuget\\packages\\",
       "outputPath": "F:\\ItsaazProject\\PersonalProject\\TestPersonProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\jafarpoor-f\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jafapour\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "F:\\OnlineShop\\OnlineShopProject\\NugetOffine": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

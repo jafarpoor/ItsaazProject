@@ -23,7 +23,7 @@ namespace EndPointSite.Controllers
             var res = await _personServices.GetAllAsync();
             if (res.Any())
             {
-                var mapRes = _mapper.Map<IEnumerable<ListPersonViewModel>>(res);
+                var mapRes = _mapper.Map<IEnumerable<ResponsePersonDTO>>(res);
                 return Ok(mapRes);
             }
             return NoContent();
@@ -35,7 +35,7 @@ namespace EndPointSite.Controllers
             var res = await _personServices.GetByIdAsync(id);
             if (res is not null)
             {
-                var mapRes = _mapper.Map<ResponsePostDTO>(res);
+                var mapRes = _mapper.Map<ResponsePersonDTO>(res);
                 return Ok(mapRes);
             }
             return NotFound();
@@ -48,7 +48,7 @@ namespace EndPointSite.Controllers
             var res = await _personServices.AddAsync(mapInput);
             if (res is not null)
             {
-                var mapRes = _mapper.Map<ResponsePostDTO>(res);
+                var mapRes = _mapper.Map<ResponsePersonDTO>(res);
 
                 // It is better to pass CreatedAtAction
                 return CreatedAtAction(nameof(GetById), new { id = mapRes.Id }, mapRes);
@@ -63,7 +63,7 @@ namespace EndPointSite.Controllers
             var res = await _personServices.EditAsync(mapInput);
             if (res is not null)
             {
-                var mapRes = _mapper.Map<ResponsePostDTO>(res);
+                var mapRes = _mapper.Map<ResponsePersonDTO>(res);
                 return Ok(mapRes);
             }
             return BadRequest();
