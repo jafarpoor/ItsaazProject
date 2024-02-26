@@ -9,22 +9,22 @@ using Moq;
 
 namespace TestPersonProject.TestController
 {
-    public class GetAll_PostController
+    public class GetAll_PersonController
     {
         private Mock<IMapper> _mapper;
         private Mock<IPersonServices> _postServices;
-        public GetAll_PostController()
+        public GetAll_PersonController()
         {
             _mapper = new Mock<IMapper>();
             _postServices = new Mock<IPersonServices>();
         }
 
         [Fact]
-        public async Task GetAll_PostController_NotEmpty()
+        public async Task GetAll_PersonController_NotEmpty()
         {
             // Arrange
             var data = new PersonDummyData();
-            _postServices.Setup(service => service.GetAllAsync().Result).Returns(data.GetAllPost);
+            _postServices.Setup(service => service.GetAllAsync().Result).Returns(data.GetAllPerson);
             _mapper.Setup(mapper => mapper.Map<IEnumerable<ResponsePersonDTO>>(It.IsAny<IEnumerable<Person>>()));
 
             var controller = new PersonTestController(_mapper.Object, _postServices.Object);
@@ -39,11 +39,11 @@ namespace TestPersonProject.TestController
         }
 
         [Fact]
-        public async Task GetAll_PostController_204NoContent()
+        public async Task GetAll_PersonController_204NoContent()
         {
             // Arrange
             var data = new PersonDummyData();
-            _postServices.Setup(service => service.GetAllAsync().Result).Returns(data.GetAllPost().Where(p => p.Id == 0).ToList());
+            _postServices.Setup(service => service.GetAllAsync().Result).Returns(data.GetAllPerson().Where(p => p.Id == 0).ToList());
             _mapper.Setup(mapper => mapper.Map<IEnumerable<ResponsePersonDTO>>(It.IsAny<IEnumerable<Person>>()));
 
             var controller = new PersonTestController(_mapper.Object, _postServices.Object);
@@ -57,11 +57,11 @@ namespace TestPersonProject.TestController
         }
 
         [Fact]
-        public async Task GetAll_PostController_200Ok()
+        public async Task GetAll_PersonController_200Ok()
         {
             // Arrange
             var data = new PersonDummyData();
-            _postServices.Setup(service => service.GetAllAsync().Result).Returns(data.GetAllPost);
+            _postServices.Setup(service => service.GetAllAsync().Result).Returns(data.GetAllPerson);
             _mapper.Setup(mapper => mapper.Map<IEnumerable<ResponsePersonDTO>>(It.IsAny<IEnumerable<Person>>()));
 
             var controller = new PersonTestController(_mapper.Object, _postServices.Object);

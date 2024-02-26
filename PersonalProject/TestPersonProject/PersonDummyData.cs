@@ -9,7 +9,7 @@ namespace TestPersonProject
         {
         }
 
-        public IEnumerable<Person> GetAllPost()
+        public IEnumerable<Person> GetAllPerson()
         {
             var posts = new List<Person>();
             posts.Add(new Person { Id = 1, Firstname = "test1", Lastname = "test1", DateOfBirth = DateTime.Now ,Email="teat1@gmail.com" ,PhoneNumber="09034882131" });
