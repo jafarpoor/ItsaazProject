@@ -7,7 +7,7 @@ namespace TestPersonProject.Service
     public class TestPersonService
     {
         public MockDbContextFactory contextFactory;
-
+        // id must be random for all entity
         public TestPersonService()
         {
             contextFactory = new MockDbContextFactory();
@@ -19,7 +19,7 @@ namespace TestPersonProject.Service
             // Arrange
             var person = new Person
             {
-                Id = 1000,
+                Id = 200,
                 Firstname = "testNew",
                 Lastname = "testNew",
                 DateOfBirth = DateTime.Now,
